@@ -4,10 +4,25 @@
 		<meta charset="UTF-8">
 		<title>ChartJS - DoughnutJS</title>
 		<script src="../js/jQuery.js"></script>
-		<script src="../js/Chart.js"></script>
-		<script src="DoughnutJS.js"></script>
+		<script src="../js/chart.js"></script>
+		<style>
+			body{
+				margin: 0;
+				padding: 0;
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 100vh;
+			}
+			canvas#mycanvas {
+				width: 500px !important;
+				height: 250px !important;
+			}
+		</style>
 	</head>
 	<body>
-		<canvas id="mycanvas" width="256" height="256"></canvas>
+		<canvas id="mycanvas"></canvas>
 	</body>
+	<script src="DoughnutJS.js"></script>
 </html>
